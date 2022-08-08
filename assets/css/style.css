@@ -1,0 +1,29 @@
+/* includes padding when setting element sizes for the entire document*/
+* {
+    box-sizing:border-box
+}
+
+/* declare a color set globally to be called later */
+:root {
+    --first: rgb(255, 0, 0);
+    --second: rgb(17, 0, 255);
+    --third: rgb(9, 255, 0);
+}
+
+.input {
+    padding: 8px;
+    height: 50px;
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+}
+
+.place {
+    text-align: center;
+}
+
+.temperature {
+    text-align: center;
+}
